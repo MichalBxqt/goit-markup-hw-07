@@ -1,0 +1,37 @@
+.our-clients-section {
+&__container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $black-text-color;
+  }
+  &__item-list {
+    display: flex;
+  }
+  &__item:not(:first-child) {
+    margin-left: 30px;
+  }
+  &__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    fill: $our-team-icons-colos;
+    border: 1px solid $our-team-icons-colos;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  &__link:hover,
+  &__link:focus {
+    border: 1px solid $hover-text-color;
+    fill: $hover-text-color;
+  }
+}

@@ -1,0 +1,44 @@
+.header {
+  padding: 19px 0px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+
+&__container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+&__item-display {
+  display: flex;
+  align-items: center;
+}
+&__contact-list {
+  display: flex;
+  margin-left: auto;
+}
+&__contact-link {
+  color: $gray-text-color;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.14;
+  text-decoration: none;
+}
+&__contact-link:hover {
+  color: $hover-text-color;
+}
+&__contact-item {
+  margin-right: 50px;
+}
+&__contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+
+
+
+
+
+}

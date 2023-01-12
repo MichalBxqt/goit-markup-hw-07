@@ -1,1 +1,42 @@
-@import "./components/header"
+@import './utils/vars';
+@import './utils/vars';
+@import './components/title-section';
+@import './components/logo';
+@import './components/lorem-section';
+@import './components/navigation';
+@import './components/header';
+@import "./components/wwd-section";
+@import "./components/our-team-section";
+@import "./components/our-clients-section";
+@import "./components/footer-logo";
+@import "./components/footer";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $gray-text-color;
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .img-item {
+    display: block;
+  }
+  .container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  header {
+    padding: 19px 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+  }
